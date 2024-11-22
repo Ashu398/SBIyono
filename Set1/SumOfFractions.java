@@ -1,10 +1,4 @@
 public class SumOfFractions {
-//     static int gcd(int a, int b) 
-// { 
-//     if (a == 0) 
-//         return b; 
-//     return gcd(b%a, a); 
-// } 
  // LCM * GCD = a * b 
 private static int lcm(int n,int m){
     int ans = (n<m)?n:m;
